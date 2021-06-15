@@ -39,31 +39,34 @@ For each of the above:
 
 ### Questions and Conclusions:
 
-* Which model had the best balanced accuracy score?
+**Which model had the best balanced accuracy score?**
 
-    **Simple Logistic Regression balanced accuracy score0.9543211898288821**
-    **Naive Random Oversampling balanced accuracy score 0.9934649587814939**
-    **SMOTE Oversampling balanced accuracy score 0.9936781215845847**
-    **Undersampling balanced accuracy score 0.8099934699520943**
-    **Combination balanced accuracy score 0.9935715401830394**
-    **The best balanced accuracy score was SMOTE but it is notable that SMOTE, Naive and Combination all had scores of higher than the simple logistic regression.**
+1. Simple Logistic Regression balanced accuracy score0.9543211898288821
+2. Naive Random Oversampling balanced accuracy score 0.9934649587814939**
+3. SMOTE Oversampling balanced accuracy score 0.9936781215845847**
+4. Undersampling balanced accuracy score 0.8099934699520943**
+5. Combination balanced accuracy score 0.9935715401830394**
+
+**The best balanced accuracy score was SMOTE but it is notable that SMOTE, Naive and Combination all had scores of higher than the simple logistic regression.**
     
-* Which model had the best recall score?
+**Which model had the best recall score?**
 
-    **Simple Logistic Regression recall score .99**
-    **Naive Random Oversampling balanced recallscore .99**
-    **SMOTE Oversampling balanced recall score .99**
-    **Undersampling balanced recall score .64**
-    **Combination balanced recall score .99**
-    **All of the models with the exception of undersampling have a recall score of .99**
+1. Simple Logistic Regression recall score .99
+2. Naive Random Oversampling balanced recallscore .99
+3. SMOTE Oversampling balanced recall score .99
+4. Undersampling balanced recall score .64
+5. Combination balanced recall score .99
 
-* Which model had the best geometric mean score?
-    **Simple Logistic Regression geo score .95**
-    **Naive Random Oversampling geo score .99**
-    **SMOTE Oversampling geo score .99**
-    **Undersampling geo score .79**
-    **Combination geo score .99**
-    **Naive random, SMOTE and combination all have a geo score of .99**
+**All of the models with the exception of undersampling have a recall score of .99**
+
+**Which model had the best geometric mean score?**
+1. Simple Logistic Regression geo score .95
+2. Naive Random Oversampling geo score .99
+3. SMOTE Oversampling geo score .99
+4. Undersampling geo score .79
+5. Combination geo score .99
+ 
+**Naive random, SMOTE and combination all have a geo score of .99**
     
 #### Ensemble Learning
 
